@@ -1,0 +1,27 @@
+{
+  "name": "ajaiapad",
+  "version": "0.1.0",
+  "description": "AjaiaPad: a lightweight collaborative document editor inspired by Google Docs",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node server/index.js",
+    "build": "vite build",
+    "prestart": "npm run build",
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.6"
+  }
+}
